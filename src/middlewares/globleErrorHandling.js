@@ -29,7 +29,6 @@ const productionError = (err, res) => {
 };
 
 export const errorHandling = (err, req, res, next) => {
-  console.warn("ok    ");
   err.statusCode = err?.statusCode || 500;
   err.status = err?.status || "error";
   err.message = err?.message || "Something Went Wrong";
