@@ -1,1 +1,1 @@
-# chai-cod
+# chai-code
